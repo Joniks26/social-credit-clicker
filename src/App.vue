@@ -22,18 +22,9 @@
 export default {
   data() {
     return {
-      count: 0,
-      song:[ {
-        src: require('./assets/sound.mp3')
-      }],
-      player: new Audio()
+      count: 0
     }
   },
-  methods: {
-    play(song) {
-
-    }
-  }
 }
 </script>
 
